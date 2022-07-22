@@ -6,6 +6,7 @@ import pandas as pd
 import sklearn
 from sklearn import linear_model
 from sklearn.utils import shuffle
+import matplotlib.pyplot as pyplot
 
 # below reads in all the data
 data = pd.read_csv("student-mat.csv", sep=";")
